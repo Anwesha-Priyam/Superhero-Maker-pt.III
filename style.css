@@ -1,0 +1,8 @@
+#Canvas{
+    border: double 5px snow;
+    background-color: blueviolet;
+}
+body{
+    background-image: url("avenger_bg.jpg");
+    text-align: center;
+}
