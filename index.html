@@ -3,11 +3,18 @@
         <title>Make Your Own Superhero!</title>
         <link rel="stylesheet" href="style.css">
         <script src="fabric.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     </head>
     <body onload="PUpdate()">
        <center>
-        <h1 class="danger">Superhero Maker</h1>
-        <b class="primary">Note:</b><h3 class="info">Try pressing any key to assemble the parts of you superhero.</h3>
+        <button class="btn-info"><h1>Superhero Maker</h1><button>
+        <div class="btn-danger" id="head_info">
+        <h2>Block width <span id="width">30</span></h2>
+        <h2>Block height <span id="height">30</span></h2>
+        </div>
+        <button class="btn-warning"><b>Note:</b><h3>Try pressing any key to assemble the parts of you superhero.</h3></button>
         <br>
         <br>
         <canvas id="Canvas" height="600" width="800">
