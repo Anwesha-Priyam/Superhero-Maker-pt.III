@@ -12,7 +12,7 @@ function PUpdate()
 window.addEventListener("keydown",my_keydown);
 function my_keydown(e)
 {
-    keycode=e.keycode;
+    keyPress=e.keycode;
     if(e.shiftkey==true&&keydown=='80')
     {
         block_height=block_height-10;
